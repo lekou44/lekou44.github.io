@@ -1,0 +1,112 @@
+div.head-right {
+    display: flex;
+    width: 225px;
+    margin-right: 16px;
+    flex-direction: row;
+    justify-content: end;
+}
+
+div.head-right-icon {
+    width: 34px;
+    height: 34px;
+    margin-top: 4px;
+    margin-right: 10px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+div.head-right-icon:hover {
+    background-color: rgb(210, 208, 208);
+}
+
+div.head-right-icon .tooltip,
+.notification-icon .tooltip {
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: absolute;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    font-size: 10px;
+    opacity: 0;
+    color: white;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.head-right-icon:hover .tooltip,
+.notification-icon:hover .tooltip {
+    opacity: 0.83;
+}
+
+img.upload {
+    width: 24px;
+}
+
+div.notification-icon {
+    width: 34px;
+    height: 34px;
+    margin-top: 2px;
+    margin-right: 15px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+div.notification-icon:hover {
+    background-color: rgb(210, 208, 208);
+}
+
+img.notification {
+    width: 24px;
+}
+
+div.notification-icon-count {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    top: -3px;
+    right: -5.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 149, 230);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+img.star {
+    width: 22px;
+}
+
+div.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+img.avatar-pic {
+    max-width: 100%;
+}

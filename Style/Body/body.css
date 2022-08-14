@@ -1,0 +1,183 @@
+hr {
+    border: 0;
+    display: block;
+    width: 99%;
+    background-color: #848484;
+    height: 1px;
+}
+
+div.body {
+    display: flex;
+    height: 1000px;
+    width: 1520px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.video {
+    width: 860px;
+    height: 485px;
+    padding-left: 23px;
+    padding-top: 23px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+video.Anime {
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    flex: 1;
+}
+
+div.video-name {
+    margin-top: -5px;
+    flex: 1;
+}
+
+p.video-name-p {
+    font-size: 20px;
+}
+
+button.Season {
+    width: 64px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+div.body-right {
+    display: flex;
+    flex-direction: column;
+    margin: 22px 22px 22px 22px;
+}
+
+div.information {
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+div.info {
+    height: 360px;
+    width: 416px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    background-color: rgb(245, 245, 245);
+    display: block;
+}
+
+div.info-dp {
+    flex: 1;
+    height: 22px;
+    padding: 16px 16px 16px 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p.info-p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div.introduction {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+div.introduce {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+}
+
+img.info-img {
+    width: 187.5px;
+    height: 250px;
+    border-radius: 6px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(251, 251, 251);
+}
+
+div.infor-name {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button.Subscribe {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border-width: 2px;
+    border: none;
+    margin-top: 14px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+button.Subscribe:hover {
+    opacity: 0.7;
+}
+
+button.Subscribe:active {
+    opacity: 0.5;
+}
+
+p.day {
+    font-size: 11px;
+    text-indent: 24px;
+    margin-top: -14px;
+}
+
+div.introduction-dp1 {
+    flex: 1;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+p.name {
+    font-size: 20px;
+}
+
+div.introduction-dp2 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+p.introduction-p1 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 15px;
+    text-indent: 31px;
+    line-height: 21px;
+}
+
+p.introduction-p2 {
+    font-size: 24px;
+    font-family: ZCOOL KuaiLe;
+    text-indent: 28px;
+    letter-spacing: 6px;
+    line-height: 28px;
+}
+
+p.introduction-p3 {
+    font-size: 4px;
+    font-family: ZCOOL KuaiLe;
+    text-align: right;
+}
