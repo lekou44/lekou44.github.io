@@ -50,6 +50,7 @@ button.Search-button {
 img.button-picture {
     width: 25px;
     margin-top: 3px;
+    -webkit-user-drag: none;
 }
 
 div.lightning {
@@ -70,6 +71,7 @@ img.lightning-pic {
     width: 26px;
     margin-top: 4px;
     margin-left: 8px;
+    -webkit-user-drag: none;
 }
 
 div.Search-button .tooltip {

@@ -29,8 +29,12 @@ div.side-bar-link {
 div.side-bar-name {
     margin-top: -6px;
     font-size: 12px;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 img.side-bar-icon {
     width: 28px;
+    user-select: none;
+    -webkit-user-drag: none;
 }

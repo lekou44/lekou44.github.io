@@ -13,4 +13,5 @@ div.head {
     left: 0px;
     right: 0px;
     z-index: 9999;
+    user-select: none;
 }

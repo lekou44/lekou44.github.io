@@ -27,6 +27,7 @@ div.hamburger-icon {
     background-color: white;
     position: relative;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 div.hamburger-icon:hover {
@@ -36,9 +37,11 @@ div.hamburger-icon:hover {
 img.hamburger-icon {
     height: 75%;
     object-fit: cover;
+    -webkit-user-drag: none;
 }
 
 img.Zelda {
     width: 100%;
     object-fit: cover;
+    -webkit-user-drag: none;
 }
